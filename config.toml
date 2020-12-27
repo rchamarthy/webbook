@@ -1,4 +1,4 @@
-baseURL = "http://ravchama-bld.insieme.local/public"
+baseURL = "https://ravi.chamarthy.dev/"
 title   = "Ravi Chamarthy"
 languageCode = "en-us"
 theme = "hello-friend-ng"
