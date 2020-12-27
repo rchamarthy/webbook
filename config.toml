@@ -1,7 +1,7 @@
 baseURL = "http://ravchama-bld.insieme.local/public"
 title   = "Ravi Chamarthy"
 languageCode = "en-us"
-theme = "github.com/rhazdon/hugo-theme-hello-friend-ng"
+theme = "hello-friend-ng"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
