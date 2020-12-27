@@ -27,5 +27,5 @@ Tools that I use for work:
 * __Editors__: [Vim](https://www.vim.org), [VS Code](https://code.visualstudio.com/)
 * __Markup__: [Markdown](https://www.markdownguide.org/), [Asciidoc](https://asciidoc.org/)
 * __OS__: [Ubuntu](https://ubuntu.com)
-* __Languages__: [Go](https://ubuntu.com), [Python3](https://www.python.org/), [Bash](https://www.gnu.org/software/bash/manual/bash.html)
+* __Languages__: [Go](https://golang.org), [Python3](https://www.python.org/), [Bash](https://www.gnu.org/software/bash/manual/bash.html)
 * __Project Management__: [Github Projects](https://github.com/features/project-management)
