@@ -55,7 +55,7 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   #
-  description = "Nice theme for homepages and blogs"
+  description = "Ravi Chamarthy's WebBook"
   keywords = "blog, linux, tech"
   images = [""]
 
@@ -162,5 +162,5 @@ disableHugoGeneratorInject = false
     url        = "about/"
   [[menu.main]]
     identifier = "posts"
-    name       = "Posts"
+    name       = "Blog"
     url        = "posts/"
