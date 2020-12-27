@@ -16,7 +16,7 @@ Engineering building [Nexus Dashboard](https://www.cisco.com/go/nexusdashboard)
 to simplify datacenter network operations and management.
 
 I hold a Bachelor of Engineering Degree in Civil Engineering and a Masters of
-Engineering in Software Systems from [BITS Pilan](https://bits-pilani.ac.in/).
+Engineering in Software Systems from [BITS Pilani](https://bits-pilani.ac.in/).
 
 My full profile is available at [linkedin](https://linkedin.com/in/ravinag).
 
