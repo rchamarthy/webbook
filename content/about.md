@@ -1,7 +1,8 @@
 +++
 title = "About"
-date = "2020-26-12"
-aliases = ["about-us","about-hugo","contact"]
+description = "About RC WebBook"
+date = "2020-12-26"
+aliases = ["about","contact"]
 [ author ]
   name = "Ravi Chamarthy"
 +++
