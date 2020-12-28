@@ -76,7 +76,7 @@ mainSections = ["post"] # see config details here https://gohugo.io/functions/wh
 # center logo on navbar
 centerLogo = false # Set to "true" for centering or "false" for left aligned.
 
-logo = "logos/logo.png"
+logo = "logos/webbook.png"
 
 # Label Non inline images on an article body
 figurePositionShow = true # toggle on or off globally
@@ -96,7 +96,7 @@ enforceLightMode = false
 # enforceDarkMode = false
 
 # customize footer icon. see issue https://github.com/chipzoller/hugo-clarity/issues/77
-# footerLogo = "icons/copy.svg"
+footerLogo = "icons/android-chrome-256x256.png"
 
 # Text for the languages menu.
 #languageMenuName = "🌐"
