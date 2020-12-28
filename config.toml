@@ -1,166 +1,121 @@
-baseURL = "https://ravi.chamarthy.dev/"
-title   = "Ravi Chamarthy"
-languageCode = "en-us"
-theme = "hello-friend-ng"
+# set `baseurl` to your root domain
+# if you set it to "/" share icons won't work properly on production
+baseurl = "http://ravchama-bld.insieme.local/public/"  # Include trailing slash
+title = "Ravi's WebBook"
+author = "Ravi Chamarthy"
+copyright = "Copyright © 2020-2021, Ravi Chamarthy; All Rights Reserved."
+# canonifyurls = true
+paginate = 10
+theme = "hugo-clarity"
 
-PygmentsCodeFences = true
-PygmentsStyle = "monokai"
+disqusShortname = ""
 
-paginate  = 10
-rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+DefaultContentLanguage = "en"
+# [languages]
+# config/_default/languages.toml
 
-# googleAnalytics = ""
-# disqusShortname = ""
-
-archetypeDir = "archetypes"
-contentDir   = "content"
-dataDir      = "data"
-layoutDir    = "layouts"
-publishDir   = "public"
-
-buildDrafts  = false
-buildFuture  = false
-buildExpired = false
-canonifyURLs = true
-
-enableRobotsTXT = true
-enableGitInfo   = false
-enableEmoji     = true
-enableMissingTranslationPlaceholders = false
-disableRSS     = false
-disableSitemap = false
-disable404     = false
-disableHugoGeneratorInject = false
-
-[permalinks]
-  posts = "/posts/:year/:month/:title/"
-
-[author]
-  name = "Ravi Chamarthy"
-
-[blackfriday]
-  hrefTargetBlank = true
+# [menus]
+# config/_default/menus/menu.xx.toml
 
 [taxonomies]
-  tag      = "tags"
-  category = "categories"
-  series   = "series"
+category = "categories"
+tag = "tags"
+series = "series"
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true # change to false to disable inclusion of rawHTML and math functions
+      xhtml = false
+    [markup.goldmark.extensions]
+      typographer = false
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = "--"
+    lineNoStart = 1
+    lineNos = true # always set to true # else line numbers won't show at all! even when you toggle them on in the UI
+    lineNumbersInTable = false # toggling this on (i.e to true) or deleting this line will break the code blocks functionality. Will
+    noClasses = false
+    # style = "monokai"
+    tabWidth = 2
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
+author = "Ravi Chamarthy"
+twitter = "@ravinag"
+largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
+introDescription = "Technologist, perpetual student, teacher, continual incremental improvement."
+# description = "" # set your site's description here. will be use for home page content meta tags (seo). Alternatively set this description in your homepage content file i.e content/_index.md. Whatever is set in the latter will take precedence
 
-  # Metadata mostly used in document's head
-  #
-  description = "Ravi Chamarthy's WebBook"
-  keywords = "blog, linux, tech"
-  images = [""]
+# Google analytics Id
+ga_analytics = "G-8HTLLH77JB"
 
-  #homeSubtitle = "WebBook"
+# Baidu analytics Id
+# baidu_analytics = "XXXXXXXX"
 
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  #
-  # gitUrl = ""
+# limit the number of taxonomies links shown on the sidebar of each page by default.
+numberOfTagsShown = 14 # Applies for all other default & custom taxonomies. e.g categories, brands see https://gohugo.io/content-management/taxonomies#what-is-a-taxonomy
 
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  #
-  disableReadOtherPosts = false
+# will be used on share >> twitter, facebook, linkedin
+fallBackOgImage = "images/thumbnail.png"
 
-  # Sharing buttons
-  #
-  # There are a lot of buttons preconfigured. If you want to change them,
-  # generate the buttons here: https://sharingbuttons.io
-  # and add them into your own `layouts/partials/sharing-buttons.html`
-  #
-  enableSharingButtons = true
+# sets the maximum number of lines per codeblock. The codeblock will however be scrollable and expandable.
+codeMaxLines = 15
 
-  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
-  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
-  #
-  customCSS = []
-  customJS  = []
+# disable showing line numbers by default. Switch to `true` if you'd rather have them on.
+codeLineNumbers = true
 
-  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-  #
-  justifyContent = false  # Set "text-align: justify" to .post-content.
+# enable math notation. Switch to `true` to enable mathjax in your site.
+enableMathNotation = false
 
-  # Default theme "light" or "dark"
-  #
-  defaultTheme = "light"
-  themeColor = "#252627"
+# directory(s) where your articles are located
+mainSections = ["post"] # see config details here https://gohugo.io/functions/where/#mainsections
 
-  # Custom footer 
-  # If you want, you can easily override the default footer with your own content. 
-  #
-  footerLeft = "Powered by <a href=\"http://gohugo.io\" target=\"_blank\" rel=\"noreferrer noopener\">Hugo</a>"
-  footerRight = "Theme: <a href=\"https://github.com/rhazdon/hugo-theme-hello-friend-ng\" target=\"_blank\" rel=\"noreferrer noopener\">Hello Friend NG</a>"
+# center logo on navbar
+centerLogo = false # Set to "true" for centering or "false" for left aligned.
 
-  # Colors for favicons
-  #
-  [params.favicon.color]
-    mask = "#252627"
-    msapplication = "#252627"
-    theme = "#252627"
+logo = "logos/logo.png"
 
-  [params.logo]
-    logoText     = "Ravi's WebBook"
-    logoHomeLink = "/"
-    # Set true to remove the logo cursor entirely.
-    logoCursorDisabled = true
-    # Set to a valid CSS color to change the cursor in the logo.
-    # logoCursorColor    = "#67a2c9"
-    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-    # logoCursorAnimate  = "2s"
-    logoPath = "/mstile-150x150.png"
+# Label Non inline images on an article body
+figurePositionShow = true # toggle on or off globally
+# you can toggle this behavior on or off on per page using the same variable inside your articles front-matter
+figurePositionLabel = "Figure" # the text before image number e.g Figure 1.0
 
-  # Uncomment this if you want a portrait on your start page
-  #
-  [params.portrait]
-    path     = "https://avatars3.githubusercontent.com/u/819205?s=400&u=2f61ca4eb7305bdb5dd9256416074476d3545a79&v=4"
-    alt      = "Portrait"
-    maxWidth = "400px"
+# Set the collapsed mobile navigation to either appear from the left or the right
+mobileNavigation = "left" # if you prefer right change to 'right'
 
-  # Social icons
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/ravinag"
+# some site owners want to decide how they would like their sites to be introduced users. These settings give you as a site owner to decide how the user will view your site for the first time.
 
-  [[params.social]]
-    name = "email"
-    url  = "mailto:ravi@chamarthy.dev"
+# please note that you cannot enforce both modes at the same time. i.e by enforcing one mode, you priotise it over the other (by setting it to true). enforceDarkMode will be commented out
 
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/rchamarthy"
+# please also not that mode toggle UI will remain in place. That way, if a user prefers darkmode, they can have their way.
 
-  [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/in/ravinag"
+enforceLightMode = false
+# enforceDarkMode = false
 
-  [[params.social]]
-    name = "stackoverflow"
-    url  = "https://stackoverflow.com/users/973796/ravi-chamarthy"
+# customize footer icon. see issue https://github.com/chipzoller/hugo-clarity/issues/77
+# footerLogo = "icons/copy.svg"
 
-[languages]
-  [languages.en]
-    subtitle  = ""
-    weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+# Text for the languages menu.
+#languageMenuName = "🌐"
 
-  [languages.fr]
-    subtitle  = ""
-    weight    = 2
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+# Title separator, default to |.
+# titleSeparator = "|"
 
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about/"
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Blog"
-    url        = "posts/"
+# Enable or disable comment globally. Default to true.
+# comment = false
+
+# Maximum number of recent posts.
+# numberOfRecentPosts = 8
+
+# Maximum number of featured posts.
+# numberOfFeaturedPosts = 8
+
+# Date format. Checkout https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference for details.
+# dateFormat = "2006-01-02" # Default to "Jan 2, 2006".
+# customFonts = false # toggle to true if you want to use custom fonts only.
+
+# The year when ths website was created
+since = 2020
