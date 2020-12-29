@@ -1,6 +1,7 @@
 # set `baseurl` to your root domain
 # if you set it to "/" share icons won't work properly on production
-baseurl = "http://ravchama-bld.insieme.local/public/"  # Include trailing slash
+#baseurl = "http://ravchama-bld.insieme.local/public/"  # test url
+baseurl = "https://ravi.chamarthy.dev/"  # prod url
 title = "Ravi's WebBook"
 author = "Ravi Chamarthy"
 copyright = "Copyright © 2020-2021, Ravi Chamarthy; All Rights Reserved."
@@ -46,11 +47,11 @@ series = "series"
 author = "Ravi Chamarthy"
 twitter = "@ravinag"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
-introDescription = "Technologist, perpetual student, teacher, continual incremental improvement."
+introDescription = "Technologist, perpetual student, teacher, not necessarily in that order. Nothing is perfect, you can only iterate."
 # description = "" # set your site's description here. will be use for home page content meta tags (seo). Alternatively set this description in your homepage content file i.e content/_index.md. Whatever is set in the latter will take precedence
 
 # Google analytics Id
-ga_analytics = "G-8HTLLH77JB"
+# ga_analytics = "G-8HTLLH77JB"
 
 # Baidu analytics Id
 # baidu_analytics = "XXXXXXXX"
