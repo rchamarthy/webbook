@@ -7,3 +7,5 @@ images:
 ---
 
 As it is customary, my first post is about building this website.
+
+Content is still under draft.
