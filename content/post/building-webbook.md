@@ -1,8 +1,8 @@
 ---
-title: "Building WebBook"
-date: 2020-12-26T17:05:29-08:00
+title: "Building WebBook With Hugo"
+date: 2020-12-26
 draft: true
-comments: false
+tags: ['blogging']
 images:
 ---
 
