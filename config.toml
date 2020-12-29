@@ -2,7 +2,7 @@
 # if you set it to "/" share icons won't work properly on production
 #baseurl = "http://ravchama-bld.insieme.local/public/"  # test url
 baseurl = "https://ravi.chamarthy.dev/"  # prod url
-title = "Ravi's WebBook"
+title = "RC WebBook"
 author = "Ravi Chamarthy"
 copyright = "Copyright © 2020-2021, Ravi Chamarthy; All Rights Reserved."
 # canonifyurls = true
