@@ -1,14 +1,28 @@
 # set `baseurl` to your root domain
 # if you set it to "/" share icons won't work properly on production
-#baseurl = "http://ravchama-bld.insieme.local/public/"  # test url
+#baseurl = "http://localhost:1313/"  # test url
 baseurl = "https://ravi.chamarthy.dev/"  # prod url
 title = "RC WebBook"
 author = "Ravi Chamarthy"
-copyright = "Copyright © 2020-2021, Ravi Chamarthy; All Rights Reserved."
 paginate = 10
 theme = "hugo-clarity"
 
 disqusShortname = ""
+
+# Disable all services that can potentially track users
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true
 
 DefaultContentLanguage = "en"
 # [languages]
