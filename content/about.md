@@ -11,7 +11,7 @@ Hello, I am Ravi Chamarthy and Welcome to my WebBook.
 
 ![:left::round](https://avatars3.githubusercontent.com/u/819205?s=400&u=2f61ca4eb7305bdb5dd9256416074476d3545a79&v=4)
 
-I am a Directory of Engineering at [Cisco Systems](https://www.cisco.com)
+I am a Director of Engineering at [Cisco Systems](https://www.cisco.com)
 building [Nexus Dashboard](https://www.cisco.com/go/nexusdashboard) to simplify
 datacenter network operations and management. Prior to Cisco, I held various
 engineering leadership positions at Insieme Networks, Juniper Networks, and
