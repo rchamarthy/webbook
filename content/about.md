@@ -30,7 +30,7 @@ For a full bio, please see my [LinkedIn page](https://linkedin.com/in/ravinag).
 ## About WebBook
 
 WebBook is my blog that I built to share about the tools and technologies that
-I use most often, constructively assess and critique systems that or post a hack
+I use most often, constructively assess and critique systems or post a hack
 I discover that will be useful for the broader community.
 
 My knowledge is built from years of building large scale distributed systems and
@@ -40,7 +40,7 @@ an effort to disseminate that synthesized tribal knowledge to a broader
 readership.
 
 While I will strive to ensure that the posts are as accurate as possible, some
-may become irrelevant due to changes is software and systems over time. Please
+may become irrelevant due to changes in software and systems over time. Please
 consider this best effort, compare it with your notes and other observations and
 draw your own relevant conclusions. If you would like to provide any feedback or
 thoughts, please file an issue or a pull request on the
