@@ -66,3 +66,7 @@ No Ads, No tracking, No cookies, or any other forms of monitoring. Period!
 ## PGP Key
 
 You can download my PGP key here: [ravi@chamarthy.dev](/ravi.asc)
+
+## Icon Attribution
+
+[Letter-r icons created by Hight Quality Icons - Flaticon](https://www.flaticon.com/free-icons/letter-r)
