@@ -1,7 +1,6 @@
 # set `baseurl` to your root domain
 # if you set it to "/" share icons won't work properly on production
-#baseurl = "http://localhost:1313/"  # test url
-baseurl = "https://ravi.chamarthy.dev/"  # prod url
+baseurl = "https://webbook.chamarthy.dev/"  # prod url
 title = "RC WebBook"
 author = "Ravi Chamarthy"
 paginate = 10

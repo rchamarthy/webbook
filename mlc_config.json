@@ -5,6 +5,9 @@
       },
       {
           "pattern": "/images/*"
+      },
+      {
+          "pattern": "/ravi.asc"
       }
     ]
 }

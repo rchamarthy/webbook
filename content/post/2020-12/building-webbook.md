@@ -85,6 +85,7 @@ Source: [zola](https://github.com/getzola/zola/blob/master/README.md#comparisons
 
 Hugo's single binary and Go module based extension mechanism makes it simpler
 to deploy and integrate it into the gitops based workflow.
+
 ### [Install Hugo](https://gohugo.io/getting-started/installing)
 
 ```bash
@@ -233,7 +234,7 @@ the staging deployment before merging to production branch.
 
 If you have a custom domain like me, you need to set up a forwarding record with
 your domain provider. Please note that you need to use the CNAME record for
-sub-domains like [ravi.chamarthy.dev](https://ravi.chamarthy.dev). For more
+sub-domains like [webbook.chamarthy.dev](https://webbook.chamarthy.dev). For more
 details on configuring custom domains with vercel, refer to the
 [documentation](https://vercel.com/docs/custom-domains).
 
